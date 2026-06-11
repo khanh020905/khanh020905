@@ -26,6 +26,22 @@
 
 ---
 
+
+ 
+<!-- 🔮 TECH STACK -->
+## 🧪 `> sudo install --tech-stack`
+ 
+<div align="center">
+### ⚡ CORE WEAPONS
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" />
+### 🛠️ BACKEND & TOOLS
+<img src="https://skillicons.dev/icons?i=java,nodejs,git,github,figma,vscode,vercel,arduino&theme=dark" />
+<br/>
+
+ 
+</div>
+
+
 ## 🕹️ `player_stats.json`
 
 <div align="center">
@@ -33,36 +49,6 @@
 | 🔥 Contributions 2026 | 📦 Repos Contributed | 💾 Commits (June) | 👥 Followers |
 |:---:|:---:|:---:|:---:|
 | **783** | **69+** | **185** | **1** |
-
-</div>
-
----
-
-## 📊 `contribution_map.png`
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=radical&border_color=00FFFF&title_color=00FFFF&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a&count_private=true&include_all_commits=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=khanh020905&theme=radical&border=00FFFF&ring=FF00FF&fire=FFFF00&currStreakLabel=00FFFF&background=0a0a1a)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=radical&border_color=00FFFF&title_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a&langs_count=6)
-
-</div>
-
----
-
-## 📦 `pinned_repos.db`
-
-<div align="center">
-
-[![Lumina](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=Lumina&theme=radical&border_color=00FFFF&title_color=00FFFF&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/Lumina)
-[![FPT-Game](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=FPT-Game&theme=radical&border_color=FF00FF&title_color=FF00FF&icon_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/FPT-Game)
-
-[![IOT-Project](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=IOT-Project&theme=radical&border_color=FFFF00&title_color=FFFF00&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/IOT-Project)
-[![Void-Runner](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=Void-Runner&theme=radical&border_color=00FF88&title_color=00FF88&icon_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/Void-Runner)
-
-[![website_furniture](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=website_furniture&theme=radical&border_color=FF6644&title_color=FF6644&icon_color=FFFF00&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/website_furniture)
 
 </div>
 
@@ -85,14 +71,21 @@
 </div>
 
 ---
-
-## 🏢 `organizations.cfg`
-
+ 
+<!-- 📊 STATS GRID -->
+## 📊 `> system.scan(performance)`
+ 
 <div align="center">
-
-[![fudn-traltb-su26](https://img.shields.io/badge/ORG-fudn--traltb--su26-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/fudn-traltb-su26)
-[![NamNguyenEdu](https://img.shields.io/badge/ORG-NamNguyenEdu-00FFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/NamNguyenEdu)
-
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=radical&hide_border=true&bg_color=0d0221&title_color=00f0ff&icon_color=ff00ff&text_color=e0e0e0&ring_color=ff00ff&include_all_commits=true&count_private=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=radical&hide_border=true&bg_color=0d0221&title_color=00f0ff&text_color=e0e0e0&langs_count=8" />
+<br/><br/>
+ 
+<img src="https://streak-stats.demolab.com?user=khanh020905&theme=radical&hide_border=true&background=0d0221&ring=ff00ff&fire=00f0ff&currStreakLabel=00f0ff&sideLabels=e0e0e0&dates=888888" />
+<br/><br/>
+ 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=khanh020905&theme=redical&bg_color=0d0221&color=00f0ff&line=ff00ff&point=ffffff&area=true&hide_border=true&custom_title=⚡%20NEURAL%20ACTIVITY%20MONITOR%20⚡" width="95%"/>
+<br/><br/>
+ 
 </div>
 
 ---
@@ -107,32 +100,16 @@
 
 ---
 
-## 🌐 `contact.cfg`
-
+## 📡 `> establish --connection`
+ 
 <div align="center">
+<a href="mailto:lenguyenquockhanh67@gmail.com"><img src="https://img.shields.io/badge/GMAIL-PING_ME-ff00ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0221"/></a>
+<a href="https://quoc-khanh0209.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-ENTER_THE_GRID-00f0ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d0221"/></a>
+<a href="https://github.com/khanh020905"><img src="https://img.shields.io/badge/GITHUB-FOLLOW_THE_SIGNAL-ff00ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221"/></a>
+ 
+<br/><br/>
+ 
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Wake%20up%2C%20Samurai.%20We%20have%20code%20to%20ship.&author=khanh020905" />
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-quoc--khanh0209.vercel.app-00FFFF?style=for-the-badge&labelColor=0a0a1a)](https://quoc-khanh0209.vercel.app/)
-[![Email](https://img.shields.io/badge/📬_Email-lenguyenquockhanh57-FF00FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a1a)](mailto:lenguyenquockhanh57@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-khanh020905-FFFF00?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/khanh020905)
-
-</div>
 
 ---
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════╗
-║                                                  ║
-║   " Code is my brush,                            ║
-║     the web is my canvas. "                      ║
-║                                                  ║
-║              — Lê Nguyên Quốc Khánh              ║
-╚══════════════════════════════════════════════════╝
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffff00,50:ff00ff,100:00ffff&height=90&section=footer" />
-
-![Profile Views](https://komarev.com/ghpvc/?username=khanh020905&color=00ffff&style=for-the-badge&label=VISITORS)
-
-</div>
