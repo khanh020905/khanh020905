@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffff,50:ff00ff,100:ffff00&height=130&section=header&text=LE%20NGUYEN%20QUOC%20KHANH&fontSize=28&fontColor=ffffff&fontAlignY=42&desc=%3C%20Creative%20Developer%20%26%20UI%2FUX%20Designer%20%2F%3E&descSize=13&descAlignY=65&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&amp;height=230&amp;color=0:030712,20:071426,50:00F5FF,80:FF00FF,100:D7FF37&amp;text=KHANH020905%20%2F%2F%20SYSTEM%20ONLINE&amp;fontColor=F8FAFC&amp;fontSize=36&amp;fontAlignY=38&amp;desc=Creative%20Developer%20%E2%80%A2%20UI%2FUX%20Designer%20%E2%80%A2%20Frontend%20Engineer&amp;descSize=16&amp;descAlignY=64&amp;animation=twinkling&amp;stroke=00F5FF&amp;strokeWidth=1" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=540&height=60&lines=%E2%96%BA+Building+cinematic+web+experiences;%E2%96%BA+100%25+Commits+%7C+783+contributions+2026;%E2%96%BA+khanh020905+%40+GitHub)](https://github.com/khanh020905)
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&amp;size=11&amp;duration=2000&amp;pause=700&amp;color=00F5FF&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=1000&amp;height=95&amp;lines=%24+initialize+portfolio+--mode+cyberpunk;%24+loading+creative_dev_profile...;%24+building+cinematic+web+experiences;%24+contributions%3A+783+%7C+status%3A+active" />
 
 </div>
 
@@ -134,36 +136,3 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=khanh020905&color=00ffff&style=for-the-badge&label=VISITORS)
 
 </div>
-
----
-
-<details>
-<summary>⚙️ <b>Setup: Snake contribution animation</b></summary>
-
-Tạo file `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
