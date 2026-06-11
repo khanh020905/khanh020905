@@ -1,170 +1,132 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0f172a,50:22c55e,100:38bdf8&text=LÊ%20NGUYÊN%20QUỐC%20KHÁNH&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Creative%20Developer%20•%20UI%20Designer%20•%20Frontend%20Engineer&descAlignY=58&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:050816,50:111827,100:00f5ff&text=LÊ%20NGUYÊN%20QUỐC%20KHÁNH&fontColor=00f5ff&fontSize=48&fontAlignY=36&desc=Creative%20Developer%20%7C%20UI%2FUX%20Designer%20%7C%20he%2Fhim&descColor=ff00ff&descAlignY=56&animation=fadeIn" />
 
-</div>
-
-<div align="center">
-
-# 👋 Hello World, I'm Khanh
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=900&lines=Creative+Frontend+Developer;UI%2FUX+Designer;GSAP+Animation+Specialist;Three.js+WebGL+Explorer;Building+Premium+Digital+Experiences"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=15&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=900&lines=%3E+Welcome+to+my+digital+world;%3E+I+build+premium+web+experiences;%3E+Frontend+%2B+UI%2FUX+%2B+Animation;%3E+Code+is+my+weapon" />
 
 </div>
 
 ---
 
-# ⚡ SYSTEM INFORMATION
+<div align="center">
 
-```bash
-> whoami
+<table>
+<tr>
+<td align="center"><b>🏢 Duo Tech</b></td>
+<td align="center"><b>📍 Viet Nam 🇻🇳</b></td>
+<td align="center"><b>📧 lenguyenquockhanh57@gmail.com</b></td>
+<td align="center"><b>🌐 quoc-khanh0209.vercel.app</b></td>
+</tr>
+</table>
 
-Name         : Lê Nguyên Quốc Khánh
-Role         : Creative Developer
-Location     : Viet Nam
-Organization : Duo Tech
-Portfolio    : quoc-khanh0209.vercel.app
+</div>
 
-Status       : Online 🟢
-Focus        : UI / UX / Animation / Frontend
+<div align="center">
 
-Current Goal :
-Building websites that people remember.
+<img src="https://img.shields.io/badge/Java-ff9f1c?style=for-the-badge&logo=openjdk&logoColor=black"/>
+<img src="https://img.shields.io/badge/JavaScript-faff00?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-00d9ff?style=for-the-badge&logo=typescript&logoColor=black"/>
+<img src="https://img.shields.io/badge/React-ff00ff?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Three.js-00ff99?style=for-the-badge&logo=three.js&logoColor=black"/>
+<img src="https://img.shields.io/badge/GSAP-dfff00?style=for-the-badge&logo=greensock&logoColor=black"/>
+
+</div>
+
+---
+
+# 🧬 `profile.exe`
+
+```txt
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║  USER        : Lê Nguyên Quốc Khánh                                ║
+║  ROLE        : Creative Developer / UI UX Designer                  ║
+║  LOCATION    : Viet Nam                                             ║
+║  STATUS      : ONLINE 🟢                                            ║
+║  PORTFOLIO   : quoc-khanh0209.vercel.app                            ║
+║                                                                    ║
+║  MISSION     : Build websites that feel premium, cinematic, alive.  ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-# 🚀 ABOUT ME
+<div align="center">
 
-```typescript
-const Khanh = {
-  role: "Creative Frontend Developer",
-  
-  passions: [
-    "Premium UI Design",
-    "Web Animation",
-    "Landing Page Design",
-    "Interactive Experiences",
-    "3D Web Applications"
-  ],
+<table>
+<tr>
+<td width="25%" align="center">
 
-  techStack: [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "GSAP",
-    "Three.js",
-    "TailwindCSS",
-    "Java"
-  ],
+<h1>783</h1>
+<p><b>Contributions 2026</b></p>
 
-  philosophy:
-    "A website should feel like an experience, not just a page.",
+</td>
+<td width="25%" align="center">
 
-  currentlyLearning: [
-    "Advanced Three.js",
-    "WebGL",
-    "Motion Design",
-    "Creative Development"
-  ]
-}
+<h1>69+</h1>
+<p><b>Repos Contributed</b></p>
+
+</td>
+<td width="25%" align="center">
+
+<h1>185</h1>
+<p><b>Commits This Month</b></p>
+
+</td>
+<td width="25%" align="center">
+
+<h1>1</h1>
+<p><b>Followers</b></p>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+# ⚡ `skill_tree.exe`
+
+```txt
+Java                 ████████████████░░░░  80%
+JavaScript           ██████████████████░░  90%
+TypeScript           █████████████████░░░  88%
+React / Next.js      ███████████████████░  95%
+GSAP Animation       ██████████████████░░  90%
+Three.js / WebGL     ████████████████░░░░  82%
+UI / UX Design       ██████████████████░░  92%
 ```
 
 ---
 
-# 🐍 CONTRIBUTION SNAKE
-
-<div align="center">
-
-### The snake is eating my commits...
-
-<img src="https://raw.githubusercontent.com/khanh020905/khanh020905/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
-
-# 📈 GITHUB ANALYTICS
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22c55e&icon_color=38bdf8"/>
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=khanh020905&theme=github-dark-blue&hide_border=true&background=0d1117&ring=22c55e&fire=38bdf8"/>
-
-</div>
-
-<div align="center">
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22c55e"/>
-
-</div>
-
----
-
-# 🔥 CONTRIBUTION ACTIVITY
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=khanh020905&theme=github-compact&hide_border=true&bg_color=0d1117&color=22c55e&line=22c55e&point=38bdf8"/>
-
-</div>
-
----
-
-# 🛠 TECH STACK
-
-<div align="center">
-
-## Frontend
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind"/>
-
-## Animation & Creative
-
-<img src="https://skillicons.dev/icons?i=threejs"/>
-
-GSAP • ScrollTrigger • WebGL
-
-## Backend & Tools
-
-<img src="https://skillicons.dev/icons?i=nodejs,java,git,github,vscode,vercel"/>
-
-## Design
-
-<img src="https://skillicons.dev/icons?i=figma"/>
-
-</div>
-
----
-
-# 🎯 FEATURED PROJECTS
+# 🗂 `pinned_repos.db`
 
 <table>
 <tr>
 <td width="50%">
 
-### 🌟 Lumina
+## 🌟 Lumina  
+Course Management System  
 
-Course Management System
-
-Tech:
-- Java
-- OOP
-- Database
+```txt
+Language : Java
+Type     : Management System
+Status   : Public
+```
 
 </td>
-
 <td width="50%">
 
-### 🎮 FPT Game
+## 🎮 FPT-Game  
+Game / Interactive Project  
 
-Interactive Game Project
-
-Tech:
-- JavaScript
-- Canvas
-- Frontend
+```txt
+Language : JavaScript
+Type     : Game
+Status   : Public
+```
 
 </td>
 </tr>
@@ -172,25 +134,53 @@ Tech:
 <tr>
 <td width="50%">
 
-### 📡 IOT Project
+## 📡 IOT-Project  
+IoT Web Application  
 
-IoT Monitoring Platform
-
-Tech:
-- TypeScript
-- Web Dashboard
+```txt
+Language : TypeScript
+Type     : IoT
+Status   : Public
+```
 
 </td>
-
 <td width="50%">
 
-### 🚀 Void Runner
+## 🚀 Void-Runner  
+Creative Runner Game  
 
-Creative Game Experience
+```txt
+Language : JavaScript
+Type     : Game
+Status   : Public
+```
 
-Tech:
-- JavaScript
-- Animation
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+## 🪑 website_furniture  
+Furniture Website UI  
+
+```txt
+Language : TypeScript
+Type     : Web
+Status   : Public
+```
+
+</td>
+<td width="50%">
+
+## 🌐 Portfolio  
+Personal Creative Portfolio  
+
+```txt
+Stack    : Frontend / UI / Animation
+Link     : quoc-khanh0209.vercel.app
+Status   : Live
+```
 
 </td>
 </tr>
@@ -198,71 +188,80 @@ Tech:
 
 ---
 
-# 💻 SKILL LEVEL
-
-```txt
-Frontend Development    ████████████████████ 95%
-
-React / Next.js         ███████████████████░ 93%
-
-UI / UX Design          ██████████████████░░ 90%
-
-GSAP Animation          ███████████████████░ 94%
-
-JavaScript              ███████████████████░ 92%
-
-TypeScript              ██████████████████░░ 88%
-
-Three.js                ████████████████░░░░ 82%
-
-Java                    ███████████████░░░░░ 78%
-```
-
----
-
-# 🌎 PORTFOLIO
+# 🐍 `snake_contribution.exe`
 
 <div align="center">
 
-### Visit my portfolio
-
-<a href="https://quoc-khanh0209.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-VISIT%20NOW-22c55e?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
+<img src="https://raw.githubusercontent.com/khanh020905/khanh020905/output/github-contribution-grid-snake-dark.svg" />
 
 </div>
 
 ---
 
-# 🎵 CURRENT MINDSET
+# 📊 `github_stats.log`
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=tokyonight&hide_border=true&bg_color=050816&title_color=00f5ff&text_color=ffffff&icon_color=ff00ff" />
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=khanh020905&theme=tokyonight&hide_border=true&background=050816&ring=00f5ff&fire=ff00ff&currStreakLabel=00f5ff" />
+
+</div>
+
+<div align="center">
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=tokyonight&hide_border=true&bg_color=050816&title_color=00f5ff&text_color=ffffff" />
+
+</div>
+
+---
+
+# 🌌 `activity_map.png`
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=khanh020905&bg_color=050816&color=00f5ff&line=ff00ff&point=00ff99&area=true&hide_border=true" />
+
+</div>
+
+---
+
+# 🧰 `tools.cfg`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,threejs,nodejs,java,git,github,figma,vscode,vercel" />
+
+</div>
+
+---
+
+# 🎯 `current_focus.txt`
 
 ```txt
-while(alive){
-
-    learn();
-    build();
-    improve();
-    repeat();
-
-}
+[01] Building premium landing pages
+[02] Creating cinematic web animations
+[03] Improving UI / UX design system
+[04] Exploring Three.js and WebGL
+[05] Making websites that clients can actually buy
 ```
 
 ---
 
-# 📫 CONTACT
+# 🌐 `contact.cfg`
 
 <div align="center">
 
+<a href="https://quoc-khanh0209.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit%20Now-00f5ff?style=for-the-badge&logo=vercel&logoColor=black"/>
+</a>
+
 <a href="mailto:lenguyenquockhanh57@gmail.com">
-<img src="https://img.shields.io/badge/GMAIL-Contact%20Me-red?style=for-the-badge&logo=gmail"/>
+<img src="https://img.shields.io/badge/Gmail-Contact%20Me-ff00ff?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://github.com/khanh020905">
-<img src="https://img.shields.io/badge/GITHUB-Follow-black?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://quoc-khanh0209.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-Explore-blue?style=for-the-badge&logo=vercel"/>
+<img src="https://img.shields.io/badge/GitHub-Follow%20Me-00ff99?style=for-the-badge&logo=github&logoColor=black"/>
 </a>
 
 </div>
@@ -271,24 +270,16 @@ while(alive){
 
 <div align="center">
 
-### 👀 Visitors
-
-<img src="https://komarev.com/ghpvc/?username=khanh020905&style=for-the-badge&color=22c55e"/>
-
-<br><br>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khanh020905/khanh020905/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
-### ⭐ Thanks for visiting my profile
-
 ```txt
-Code • Design • Creativity
+╭──────────────────────────────────────────────╮
+│                                              │
+│   Code is my brush. The web is my canvas.    │
+│                                              │
+╰──────────────────────────────────────────────╯
 ```
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f172a,50:22c55e,100:38bdf8"/>
+<img src="https://komarev.com/ghpvc/?username=khanh020905&style=for-the-badge&color=00f5ff" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:050816,50:111827,100:00f5ff"/>
 
 </div>
