@@ -6,21 +6,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&amp;size=11&amp;duration=2000&amp;pause=700&amp;color=00F5FF&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;width=1000&amp;height=95&amp;lines=%24+initialize+portfolio+--mode+cyberpunk;%24+loading+creative_dev_profile...;%24+building+cinematic+web+experiences;%24+contributions%3A+783+%7C+status%3A+active" />
 
+
+<br/> <img src="https://img.shields.io/badge/SYSTEM-ONLINE-00F5FF?style=flat-square&labelColor=030712" /> <img src="https://img.shields.io/badge/CODING-MODE-FF00FF?style=flat-square&labelColor=030712" /> <img src="https://img.shields.io/badge/DEPLOY-READY-D7FF37?style=flat-square&labelColor=030712" /> </td>
+
 </div>
 
-<br/>
-
-<a href="mailto:lenguyenquockhanh57@gmail.com">
-  <img src="https://img.shields.io/badge/GMAIL-PING_ME-ff00ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712"/>
-</a>
-<a href="https://quoc-khanh0209.vercel.app/">
-  <img src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMO-00f5ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712"/>
-</a>
-<a href="https://github.com/khanh020905">
-  <img src="https://img.shields.io/badge/GITHUB-CODEBASE-d7ff37?style=for-the-badge&logo=github&logoColor=black&labelColor=030712"/>
-</a>
-
-</td>
 
 <td width="42%" align="center">
 
