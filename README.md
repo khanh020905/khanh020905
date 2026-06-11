@@ -277,6 +277,12 @@ while(alive){
 
 <br><br>
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/khanh020905/khanh020905/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
 ### ⭐ Thanks for visiting my profile
 
 ```txt
