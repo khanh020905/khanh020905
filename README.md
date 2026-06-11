@@ -1,169 +1,288 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffff,50:ff00ff,100:ffff00&height=130&section=header&text=LE%20NGUYEN%20QUOC%20KHANH&fontSize=28&fontColor=ffffff&fontAlignY=42&desc=%3C%20Creative%20Developer%20%26%20UI%2FUX%20Designer%20%2F%3E&descSize=13&descAlignY=65&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0f172a,50:22c55e,100:38bdf8&text=LÊ%20NGUYÊN%20QUỐC%20KHÁNH&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Creative%20Developer%20•%20UI%20Designer%20•%20Frontend%20Engineer&descAlignY=58&animation=fadeIn"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=540&height=60&lines=%E2%96%BA+Building+cinematic+web+experiences;%E2%96%BA+100%25+Commits+%7C+783+contributions+2026;%E2%96%BA+khanh020905+%40+GitHub)](https://github.com/khanh020905)
+</div>
+
+<div align="center">
+
+# 👋 Hello World, I'm Khanh
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=900&lines=Creative+Frontend+Developer;UI%2FUX+Designer;GSAP+Animation+Specialist;Three.js+WebGL+Explorer;Building+Premium+Digital+Experiences"/>
 
 </div>
 
 ---
 
-<div align="center">
+# ⚡ SYSTEM INFORMATION
 
-```
-╔══════════════════════════════════════════════════════════╗
-║   PLAYER  : Lê Nguyên Quốc Khánh    [he/him]            ║
-║   ORG     : Duo Tech                [Viet Nam 🇻🇳]        ║
-║   STATUS  : ██████████  AVAILABLE FOR HIRE  ✓            ║
-║   TYPE    : Creative Dev + UI/UX Designer                ║
-║   MAIL    : lenguyenquockhanh57@gmail.com                ║
-╚══════════════════════════════════════════════════════════╝
-```
+```bash
+> whoami
 
-</div>
+Name         : Lê Nguyên Quốc Khánh
+Role         : Creative Developer
+Location     : Viet Nam
+Organization : Duo Tech
+Portfolio    : quoc-khanh0209.vercel.app
 
----
+Status       : Online 🟢
+Focus        : UI / UX / Animation / Frontend
 
-## 🕹️ `player_stats.json`
-
-<div align="center">
-
-| 🔥 Contributions 2026 | 📦 Repos Contributed | 💾 Commits (June) | 👥 Followers |
-|:---:|:---:|:---:|:---:|
-| **783** | **69+** | **185** | **1** |
-
-</div>
-
----
-
-## 📊 `contribution_map.png`
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=radical&border_color=00FFFF&title_color=00FFFF&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a&count_private=true&include_all_commits=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=khanh020905&theme=radical&border=00FFFF&ring=FF00FF&fire=FFFF00&currStreakLabel=00FFFF&background=0a0a1a)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=radical&border_color=00FFFF&title_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a&langs_count=6)
-
-</div>
-
----
-
-## 📦 `pinned_repos.db`
-
-<div align="center">
-
-[![Lumina](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=Lumina&theme=radical&border_color=00FFFF&title_color=00FFFF&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/Lumina)
-[![FPT-Game](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=FPT-Game&theme=radical&border_color=FF00FF&title_color=FF00FF&icon_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/FPT-Game)
-
-[![IOT-Project](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=IOT-Project&theme=radical&border_color=FFFF00&title_color=FFFF00&icon_color=FF00FF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/IOT-Project)
-[![Void-Runner](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=Void-Runner&theme=radical&border_color=00FF88&title_color=00FF88&icon_color=00FFFF&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/Void-Runner)
-
-[![website_furniture](https://github-readme-stats.vercel.app/api/pin/?username=khanh020905&repo=website_furniture&theme=radical&border_color=FF6644&title_color=FF6644&icon_color=FFFF00&text_color=CCCCFF&bg_color=0a0a1a)](https://github.com/khanh020905/website_furniture)
-
-</div>
-
----
-
-## 🕹️ `skill_tree.exe`
-
-<div align="center">
-
-| Skill | Level | XP Bar |
-|:------|:-----:|:------:|
-| ☕ Java | `ADVANCED` | `████████████████░░░░` 80% |
-| 🟡 JavaScript | `EXPERT` | `███████████████████░` 90% |
-| 🔷 TypeScript | `EXPERT` | `██████████████████░░` 88% |
-| ⚛️ React / Next.js | `MASTER` | `████████████████████` 95% |
-| 🎬 GSAP / Animation | `EXPERT` | `███████████████████░` 92% |
-| 🌐 Three.js / WebGL | `ADVANCED` | `████████████████░░░░` 82% |
-| 🎨 UI/UX Design | `EXPERT` | `███████████████████░` 90% |
-
-</div>
-
----
-
-## 🏢 `organizations.cfg`
-
-<div align="center">
-
-[![fudn-traltb-su26](https://img.shields.io/badge/ORG-fudn--traltb--su26-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/fudn-traltb-su26)
-[![NamNguyenEdu](https://img.shields.io/badge/ORG-NamNguyenEdu-00FFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/NamNguyenEdu)
-
-</div>
-
----
-
-## 🐍 `activity_snake.gif`
-
-<div align="center">
-
-![snake](https://github.com/khanh020905/khanh020905/blob/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
-
-## 🌐 `contact.cfg`
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-quoc--khanh0209.vercel.app-00FFFF?style=for-the-badge&labelColor=0a0a1a)](https://quoc-khanh0209.vercel.app/)
-[![Email](https://img.shields.io/badge/📬_Email-lenguyenquockhanh57-FF00FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a1a)](mailto:lenguyenquockhanh57@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-khanh020905-FFFF00?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)](https://github.com/khanh020905)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════╗
-║                                                  ║
-║   " Code is my brush,                            ║
-║     the web is my canvas. "                      ║
-║                                                  ║
-║              — Lê Nguyên Quốc Khánh              ║
-╚══════════════════════════════════════════════════╝
+Current Goal :
+Building websites that people remember.
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffff00,50:ff00ff,100:00ffff&height=90&section=footer" />
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=khanh020905&color=00ffff&style=for-the-badge&label=VISITORS)
+# 🚀 ABOUT ME
+
+```typescript
+const Khanh = {
+  role: "Creative Frontend Developer",
+  
+  passions: [
+    "Premium UI Design",
+    "Web Animation",
+    "Landing Page Design",
+    "Interactive Experiences",
+    "3D Web Applications"
+  ],
+
+  techStack: [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "GSAP",
+    "Three.js",
+    "TailwindCSS",
+    "Java"
+  ],
+
+  philosophy:
+    "A website should feel like an experience, not just a page.",
+
+  currentlyLearning: [
+    "Advanced Three.js",
+    "WebGL",
+    "Motion Design",
+    "Creative Development"
+  ]
+}
+```
+
+---
+
+# 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+
+### The snake is eating my commits...
+
+<img src="https://raw.githubusercontent.com/khanh020905/khanh020905/output/github-contribution-grid-snake-dark.svg"/>
 
 </div>
 
 ---
 
-<details>
-<summary>⚙️ <b>Setup: Snake contribution animation</b></summary>
+# 📈 GITHUB ANALYTICS
 
-Tạo file `.github/workflows/snake.yml`:
+<div align="center">
 
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=khanh020905&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22c55e&icon_color=38bdf8"/>
+
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=khanh020905&theme=github-dark-blue&hide_border=true&background=0d1117&ring=22c55e&fire=38bdf8"/>
+
+</div>
+
+<div align="center">
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanh020905&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=22c55e"/>
+
+</div>
+
+---
+
+# 🔥 CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=khanh020905&theme=github-compact&hide_border=true&bg_color=0d1117&color=22c55e&line=22c55e&point=38bdf8"/>
+
+</div>
+
+---
+
+# 🛠 TECH STACK
+
+<div align="center">
+
+## Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind"/>
+
+## Animation & Creative
+
+<img src="https://skillicons.dev/icons?i=threejs"/>
+
+GSAP • ScrollTrigger • WebGL
+
+## Backend & Tools
+
+<img src="https://skillicons.dev/icons?i=nodejs,java,git,github,vscode,vercel"/>
+
+## Design
+
+<img src="https://skillicons.dev/icons?i=figma"/>
+
+</div>
+
+---
+
+# 🎯 FEATURED PROJECTS
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌟 Lumina
+
+Course Management System
+
+Tech:
+- Java
+- OOP
+- Database
+
+</td>
+
+<td width="50%">
+
+### 🎮 FPT Game
+
+Interactive Game Project
+
+Tech:
+- JavaScript
+- Canvas
+- Frontend
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📡 IOT Project
+
+IoT Monitoring Platform
+
+Tech:
+- TypeScript
+- Web Dashboard
+
+</td>
+
+<td width="50%">
+
+### 🚀 Void Runner
+
+Creative Game Experience
+
+Tech:
+- JavaScript
+- Animation
+
+</td>
+</tr>
+</table>
+
+---
+
+# 💻 SKILL LEVEL
+
+```txt
+Frontend Development    ████████████████████ 95%
+
+React / Next.js         ███████████████████░ 93%
+
+UI / UX Design          ██████████████████░░ 90%
+
+GSAP Animation          ███████████████████░ 94%
+
+JavaScript              ███████████████████░ 92%
+
+TypeScript              ██████████████████░░ 88%
+
+Three.js                ████████████████░░░░ 82%
+
+Java                    ███████████████░░░░░ 78%
 ```
 
-</details>
+---
+
+# 🌎 PORTFOLIO
+
+<div align="center">
+
+### Visit my portfolio
+
+<a href="https://quoc-khanh0209.vercel.app/">
+<img src="https://img.shields.io/badge/PORTFOLIO-VISIT%20NOW-22c55e?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 🎵 CURRENT MINDSET
+
+```txt
+while(alive){
+
+    learn();
+    build();
+    improve();
+    repeat();
+
+}
+```
+
+---
+
+# 📫 CONTACT
+
+<div align="center">
+
+<a href="mailto:lenguyenquockhanh57@gmail.com">
+<img src="https://img.shields.io/badge/GMAIL-Contact%20Me-red?style=for-the-badge&logo=gmail"/>
+</a>
+
+<a href="https://github.com/khanh020905">
+<img src="https://img.shields.io/badge/GITHUB-Follow-black?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://quoc-khanh0209.vercel.app/">
+<img src="https://img.shields.io/badge/PORTFOLIO-Explore-blue?style=for-the-badge&logo=vercel"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 👀 Visitors
+
+<img src="https://komarev.com/ghpvc/?username=khanh020905&style=for-the-badge&color=22c55e"/>
+
+<br><br>
+
+### ⭐ Thanks for visiting my profile
+
+```txt
+Code • Design • Creativity
+```
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0f172a,50:22c55e,100:38bdf8"/>
+
+</div>
