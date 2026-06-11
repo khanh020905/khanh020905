@@ -8,7 +8,38 @@
 
 </div>
 
----
+<br/>
+
+<a href="mailto:lenguyenquockhanh57@gmail.com">
+  <img src="https://img.shields.io/badge/GMAIL-PING_ME-ff00ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712"/>
+</a>
+<a href="https://quoc-khanh0209.vercel.app/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-LIVE_DEMO-00f5ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=030712"/>
+</a>
+<a href="https://github.com/khanh020905">
+  <img src="https://img.shields.io/badge/GITHUB-CODEBASE-d7ff37?style=for-the-badge&logo=github&logoColor=black&labelColor=030712"/>
+</a>
+
+</td>
+
+<td width="42%" align="center">
+
+
+<img width="100%" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" />
+
+
+
+<br/>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00F5FF,50:FF00FF,100:D7FF37" />
+
+</div>
 
 <div align="center">
 
@@ -26,8 +57,6 @@
 
 ---
 
-
- 
 <!-- 🔮 TECH STACK -->
 ## 🧪 `> sudo install --tech-stack`
  
