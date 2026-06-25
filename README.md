@@ -109,8 +109,6 @@
 
 ---
 
-## 🐍 `activity_snake.gif`
-
 <div align="center">
 
 ![snake](https://github.com/khanh020905/khanh020905/blob/output/github-contribution-grid-snake-dark.svg)
