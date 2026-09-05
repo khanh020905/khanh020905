@@ -4,11 +4,12 @@
 
 <div align="center">
 
-<img width="100%" src="assets/header.svg" alt="KHANH020905 // SYSTEM ONLINE — Creative Developer · UI/UX Designer · Frontend Engineer" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img width="100%" src="assets/header.svg" alt="KHANH020905 // SYSTEM ONLINE — Creative Developer · UI/UX Designer · Frontend Engineer" />
+</picture>
 
-<a href="https://quoc-khanh0209.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=15&duration=2600&pause=800&color=00F5FF&center=true&vCenter=true&multiline=false&repeat=true&width=980&height=48&lines=%24+whoami+%E2%86%92+Creative+Developer+%2F+UI%2FUX+Designer;%24+build+--cinematic+web+experiences+--with+GSAP+%26+Three.js;%24+stack%3A+React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind;%24+status%3A+AVAILABLE_FOR_HIRE+%E2%9C%93" alt="typing intro" />
-</a>
+<a href="https://quoc-khanh0209.vercel.app/"><img width="100%" src="assets/typing.svg" alt="$ whoami → Creative Developer · $ status: AVAILABLE_FOR_HIRE" /></a>
 
 <br/>
 
@@ -112,54 +113,38 @@ export const player = {
 
 <div align="center">
 
-<table border="0">
+<table border="0" cellspacing="0" cellpadding="6">
 <tr>
-<td align="center" width="33%">
-<h3>🎓 SWP391 Project</h3>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-<br/><br/>
-<a href="https://swp-391-project-kohl.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/SWP391-PROJECT"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://swp-391-project-kohl.vercel.app"><img width="100%" src="assets/builds/swp391.svg" alt="SWP391 Project — live site" /></a>
+<sub><a href="https://github.com/khanh020905/SWP391-PROJECT">source ↗</a></sub>
 </td>
-<td align="center" width="33%">
-<h3>👗 Wedding Dress Shop</h3>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/E--commerce-D7FF37?style=flat-square&labelColor=030712" />
-<br/><br/>
-<a href="https://wedding-dress-shop.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/wedding_dress_shop"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://wedding-dress-shop.vercel.app"><img width="100%" src="assets/builds/wedding-dress.svg" alt="Wedding Dress Shop — live site" /></a>
+<sub><a href="https://github.com/khanh020905/wedding_dress_shop">source ↗</a></sub>
 </td>
-<td align="center" width="33%">
-<h3>🧳 Travel · Lunara</h3>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Landing-FF00FF?style=flat-square&labelColor=030712" />
-<br/><br/>
-<a href="https://travel-lunara.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/Travel-Website-Lunara"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://travel-lunara.vercel.app"><img width="100%" src="assets/builds/lunara.svg" alt="Travel · Lunara — live site" /></a>
+<sub><a href="https://github.com/khanh020905/Travel-Website-Lunara">source ↗</a></sub>
 </td>
 </tr>
 <tr>
-<td align="center" width="33%">
-<h3>🎬 Web CGV</h3>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/UI_Clone-00F5FF?style=flat-square&labelColor=030712" />
-<br/><br/>
-<a href="https://web-cgv.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/web-cgv"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://web-cgv.vercel.app"><img width="100%" src="assets/builds/web-cgv.svg" alt="Web CGV — live site" /></a>
+<sub><a href="https://github.com/khanh020905/web-cgv">source ↗</a></sub>
 </td>
-<td align="center" width="33%">
-<h3>🛗 Ascenza Elevator</h3>
-<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" />
-<br/><br/>
-<a href="https://ascenza-elevator.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/ascenza-elevator"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://ascenza-elevator.vercel.app"><img width="100%" src="assets/builds/ascenza.svg" alt="Ascenza Elevator — live site" /></a>
+<sub><a href="https://github.com/khanh020905/ascenza-elevator">source ↗</a></sub>
 </td>
-<td align="center" width="33%">
-<h3>📟 IoT Project</h3>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
-<br/><br/>
-<a href="https://iot-project-murex.vercel.app"><img src="https://img.shields.io/badge/▶_LIVE-00F5FF?style=for-the-badge&labelColor=030712" /></a>
-<a href="https://github.com/khanh020905/IOT-Project"><img src="https://img.shields.io/badge/SOURCE-FF00FF?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<td align="center" width="33%" valign="top">
+<a href="https://iot-project-murex.vercel.app"><img width="100%" src="assets/builds/iot.svg" alt="IoT Project — live site" /></a>
+<sub><a href="https://github.com/khanh020905/IOT-Project">source ↗</a></sub>
 </td>
 </tr>
 </table>
+
+<sub>🖼 screenshots re-taken every Monday by GitHub Actions · click a card to open the live site</sub>
 
 <sub>＋ dozens more cinematic landing pages in <a href="https://github.com/khanh020905?tab=repositories&type=source">100+ public repos</a> — all deployed, all live.</sub>
 
@@ -173,15 +158,9 @@ export const player = {
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=khanh020905&theme=radical" alt="profile details" />
+<img width="100%" src="assets/stats.svg" alt="Live GitHub stats — contributions, streak, languages, 52-week activity" />
 
-<img width="32.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khanh020905&theme=radical" alt="stats" />
-<img width="32.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khanh020905&theme=radical" alt="most committed languages" />
-<img width="32.5%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=khanh020905&theme=radical" alt="repos per language" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=khanh020905&hide_border=true&background=030712&ring=FF00FF&fire=00F5FF&currStreakNum=D7FF37&currStreakLabel=00F5FF&sideNums=E2E8F0&sideLabels=94A3B8&dates=64748B&stroke=1E293B&date_format=j%20M%5B%20Y%5D" alt="streak" />
+<sub>📡 synced daily by GitHub Actions · numbers straight from the GitHub GraphQL API</sub>
 
 
 </div>
@@ -218,10 +197,9 @@ export const player = {
 
 <br/><br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=Wake%20up%2C%20Samurai.%20We%20have%20code%20to%20ship.&author=khanh020905" alt="quote" />
-
-<br/>
-
-<img width="100%" src="assets/footer.svg" alt="end of transmission" />
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
+  <img width="100%" src="assets/footer.svg" alt="end of transmission" />
+</picture>
 
 </div>

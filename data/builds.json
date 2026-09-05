@@ -1,0 +1,8 @@
+[
+  { "slug": "swp391",        "name": "SWP391 Project",     "url": "https://swp-391-project-kohl.vercel.app", "repo": "khanh020905/SWP391-PROJECT",        "tags": ["TypeScript", "Next.js"] },
+  { "slug": "wedding-dress", "name": "Wedding Dress Shop", "url": "https://wedding-dress-shop.vercel.app",   "repo": "khanh020905/wedding_dress_shop",    "tags": ["TypeScript", "E-commerce"] },
+  { "slug": "lunara",        "name": "Travel · Lunara",    "url": "https://travel-lunara.vercel.app",        "repo": "khanh020905/Travel-Website-Lunara", "tags": ["TypeScript", "Landing"] },
+  { "slug": "web-cgv",       "name": "Web CGV",            "url": "https://web-cgv.vercel.app",              "repo": "khanh020905/web-cgv",               "tags": ["TypeScript", "UI Clone"] },
+  { "slug": "ascenza",       "name": "Ascenza Elevator",   "url": "https://ascenza-elevator.vercel.app",     "repo": "khanh020905/ascenza-elevator",      "tags": ["HTML", "GSAP"] },
+  { "slug": "iot",           "name": "IoT Project",        "url": "https://iot-project-murex.vercel.app",    "repo": "khanh020905/IOT-Project",           "tags": ["TypeScript", "Arduino"] }
+]
