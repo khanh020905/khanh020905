@@ -732,11 +732,14 @@ function footerMobile(t) {
 <text class="mono" x="320" y="272" text-anchor="middle" font-size="11.5" letter-spacing="2" fill="${t.muted}">SEE YOU IN THE GRID</text>`);
 }
 
-/* ═══════════════════════════════ BUILD CARDS ═══════════════════════════════ */
+/* ═══════════════════════════════ BUILD CARDS (flipbook) ═══════════════════════════════ */
 function buildCard(b) {
   const W = 400, H = 300, IX = 16, IY = 16, IW = 368, IH = 222;
-  const shotPath = join(ROOT, "data", "shots", `${b.slug}.jpg`);
-  const shot = existsSync(shotPath) ? readFileSync(shotPath).toString("base64") : null;
+  const frame = (suffix) => { const p = join(ROOT, "data", "shots", `${b.slug}${suffix}.jpg`); return existsSync(p) ? readFileSync(p).toString("base64") : null; };
+  const hero = frame("");
+  const extra = ["-a", "-b", "-c", "-d"].map(frame).filter(Boolean);
+  const n = extra.length, slots = n + 1, SLOT = 1.5, T = slots * SLOT;
+  const pct = (k) => ((k / slots) * 100).toFixed(2);
   const host = new URL(b.url).host;
   let tagX = W - 18, chips = "";
   for (const tag of [...b.tags].reverse()) {
@@ -744,13 +747,29 @@ function buildCard(b) {
     chips += `<rect x="${tagX}" y="253" width="${w}" height="19" rx="4" fill="${C.panel}" stroke="${C.line}"/><text class="mono" x="${tagX + w / 2}" y="266.5" text-anchor="middle" font-size="10" letter-spacing=".5" fill="${C.cyan}">${esc(tag)}</text>`;
     tagX -= 6;
   }
-  const image = shot
-    ? `<image x="${IX}" y="${IY}" width="${IW}" height="${IH}" preserveAspectRatio="xMidYMin slice" clip-path="url(#img)" href="data:image/jpeg;base64,${shot}"/>
+  const img = (data, cls = "") => `<image${cls ? ` class="${cls}"` : ""} x="${IX}" y="${IY}" width="${IW}" height="${IH}" preserveAspectRatio="xMidYMin slice" clip-path="url(#img)" href="data:image/jpeg;base64,${data}"/>`;
+  // overlay k (1..n) fades in at its slot and stays until the cycle end; the last one fades out to reveal the hero base
+  let kf = "", overlays = "", dots = "";
+  extra.forEach((data, i) => {
+    const k = i + 1, start = pct(k), fin = (Number(start) + 3).toFixed(2), last = k === n;
+    kf += last
+      ? `.f${k}{animation:f${k} ${T}s linear infinite;opacity:0}@keyframes f${k}{0%,${start}%{opacity:0}${fin}%,96%{opacity:1}100%{opacity:0}}`
+      : `.f${k}{animation:f${k} ${T}s linear infinite;opacity:0}@keyframes f${k}{0%,${start}%{opacity:0}${fin}%,90%{opacity:1}94%,100%{opacity:0}}`;
+    overlays += img(data, `f${k}`);
+  });
+  for (let j = 0; j < slots; j++) {
+    const s0 = pct(j), s1 = pct(j + 1);
+    kf += `.d${j}{animation:d${j} ${T}s linear infinite}@keyframes d${j}{0%,${s0}%{opacity:.25}${(Number(s0) + .5).toFixed(2)}%,${s1}%{opacity:1}${(Number(s1) + .5).toFixed(2)}%,100%{opacity:.25}}`;
+    dots += `<circle class="d${j}" cx="${IX + IW - 12 - (slots - 1 - j) * 10}" cy="${IY + IH - 11}" r="2.4" fill="${C.lime}"/>`;
+  }
+  const image = hero
+    ? `${img(hero)}${overlays}
        <rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" clip-path="url(#img)" fill="url(#shade)"/>
-       <rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" clip-path="url(#img)" fill="url(#scan)"/>`
+       <rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" clip-path="url(#img)" fill="url(#scan)"/>
+       ${n ? `<rect x="${IX + IW - 22 - (slots - 1) * 10}" y="${IY + IH - 20}" width="${18 + (slots - 1) * 10}" height="18" rx="9" fill="${C.bg}" fill-opacity=".7"/>${dots}` : ""}`
     : `<rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" rx="10" fill="${C.panel}"/><rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" rx="10" fill="url(#grid)"/>
        <text class="mono" x="${W / 2}" y="${IY + IH / 2 + 4}" text-anchor="middle" font-size="11" letter-spacing="2" fill="${C.muted}">SCREENSHOT PENDING</text>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)} — ${esc(host)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)} — ${esc(host)}${n ? " (live motion preview)" : ""}">
 <defs>
 <style>
 ${fontFace}
@@ -759,7 +778,8 @@ ${fontsCss}
 @keyframes dash{to{stroke-dashoffset:-1440}}
 .in{animation:fadeIn .8s ease .1s both}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-${reducedMotion(".edge{stroke-dasharray:none}")}
+${kf}
+${reducedMotion(".edge{stroke-dasharray:none}" + extra.map((_, i) => `.f${i + 1}`).join(",") + "{display:none}")}
 </style>
 <clipPath id="img"><rect x="${IX}" y="${IY}" width="${IW}" height="${IH}" rx="10"/></clipPath>
 <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="${C.bg}" stop-opacity="0"/><stop offset="1" stop-color="${C.bg}" stop-opacity=".75"/></linearGradient>
@@ -770,7 +790,7 @@ ${reducedMotion(".edge{stroke-dasharray:none}")}
 </defs>
 <rect width="${W}" height="${H}" rx="14" fill="${C.bg}"/>
 <g class="in">${image}</g>
-<g><rect x="26" y="26" width="52" height="20" rx="10" fill="${C.bg}" fill-opacity=".85" stroke="${C.lime}" stroke-opacity=".8"/><circle cx="38" cy="36" r="3" fill="${C.lime}"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle><text class="mono" x="47" y="40" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="${C.lime}">LIVE</text></g>
+<g><rect x="26" y="26" width="${n ? 88 : 52}" height="20" rx="10" fill="${C.bg}" fill-opacity=".85" stroke="${C.lime}" stroke-opacity=".8"/><circle cx="38" cy="36" r="3" fill="${C.lime}"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle><text class="mono" x="47" y="40" font-size="9.5" font-weight="700" letter-spacing="1.5" fill="${C.lime}">${n ? "LIVE · MOTION" : "LIVE"}</text></g>
 <text class="orb" x="18" y="268" font-size="17" font-weight="700" fill="${C.text}">${esc(b.name)}</text>
 ${chips}
 <text class="mono" x="18" y="288" font-size="11" letter-spacing=".4" fill="${C.muted}">${esc(host)} ↗</text>

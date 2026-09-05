@@ -107,7 +107,7 @@
 </tr>
 </table>
 
-<sub>🖼 screenshots re-taken every Monday by GitHub Actions · click a card to open the live site</sub>
+<sub>🎞 live motion previews — five real frames per site, re-captured every Monday by GitHub Actions · click a card to open the live site</sub>
 
 <sub>＋ dozens more cinematic landing pages in <a href="https://github.com/khanh020905?tab=repositories&type=source">100+ public repos</a> — all deployed, all live.</sub>
 
