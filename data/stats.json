@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:46:28.842Z",
+  "generatedAt": "2026-09-05T15:21:24.093Z",
   "login": "khanh020905",
   "createdAt": "2025-03-08T06:28:11Z",
   "followers": 3,
@@ -14,7 +14,7 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "pct": 49.1,
+      "pct": 49,
       "repos": 40
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "pct": 6.8,
+      "pct": 6.9,
       "repos": 32
     },
     {
@@ -49,15 +49,15 @@
     }
   ],
   "last12": {
-    "total": 2135,
-    "commits": 2058,
+    "total": 2136,
+    "commits": 2059,
     "prs": 3,
     "issues": 0,
     "reviews": 0
   },
   "allTime": {
-    "total": 2170,
-    "commits": 2063,
+    "total": 2171,
+    "commits": 2064,
     "prs": 3,
     "issues": 0
   },
@@ -77,7 +77,7 @@
     310,
     597,
     228,
-    194
+    196
   ],
   "weeks52": [
     0,
@@ -131,7 +131,7 @@
     50,
     58,
     66,
-    45
+    46
   ],
   "weekLabels": [
     "2025-09-07",
