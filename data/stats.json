@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T14:31:00.745Z",
+  "generatedAt": "2026-09-05T14:32:49.118Z",
   "login": "khanh020905",
   "createdAt": "2025-03-08T06:28:11Z",
   "followers": 3,
@@ -13,13 +13,13 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "pct": 49.2,
+      "pct": 49.1,
       "repos": 40
     },
     {
       "name": "HTML",
       "color": "#e34c26",
-      "pct": 30.5,
+      "pct": 30.4,
       "repos": 85
     },
     {
@@ -31,8 +31,8 @@
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "pct": 6.6,
-      "repos": 31
+      "pct": 6.8,
+      "repos": 32
     },
     {
       "name": "CSS",
@@ -48,15 +48,15 @@
     }
   ],
   "last12": {
-    "total": 2134,
-    "commits": 2057,
+    "total": 2135,
+    "commits": 2058,
     "prs": 3,
     "issues": 0,
     "reviews": 0
   },
   "allTime": {
-    "total": 2169,
-    "commits": 2062,
+    "total": 2170,
+    "commits": 2063,
     "prs": 3,
     "issues": 0
   },
@@ -70,13 +70,13 @@
     ]
   },
   "byWeekday": [
-    228,
-    336,
-    274,
-    313,
+    227,
+    338,
+    275,
+    310,
     597,
     228,
-    193
+    195
   ],
   "weeks52": [
     0,
@@ -107,8 +107,8 @@
     8,
     10,
     16,
-    14,
-    10,
+    15,
+    9,
     68,
     18,
     46,
@@ -130,7 +130,7 @@
     50,
     58,
     66,
-    44
+    45
   ],
   "weekLabels": [
     "2025-09-07",
