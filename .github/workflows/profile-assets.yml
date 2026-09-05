@@ -23,7 +23,7 @@ permissions:
 
 concurrency:
   group: profile-assets
-  cancel-in-progress: false
+  cancel-in-progress: true   # newest run wins; a superseded run is just redone next schedule
 
 jobs:
   build:
@@ -61,4 +61,12 @@ jobs:
           git add assets data
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "chore(profile): refresh assets $(date -u +%Y-%m-%d)"
-          git push
+          # another run (or a human push) may have moved main while we rendered — replay our commit on top, ours wins
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort; git reset --hard origin/main; echo "rebase failed, giving up"; exit 1; }
+            git push && exit 0
+            echo "push rejected (attempt $attempt), retrying"
+            sleep 5
+          done
+          exit 1
