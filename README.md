@@ -5,21 +5,17 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 640px)" srcset="assets/header-mobile.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
   <img width="100%" src="assets/header.svg" alt="KHANH020905 // SYSTEM ONLINE — Creative Developer · UI/UX Designer · Frontend Engineer" />
 </picture>
 
-<a href="https://quoc-khanh0209.vercel.app/"><img width="100%" src="assets/typing.svg" alt="$ whoami → Creative Developer · $ status: AVAILABLE_FOR_HIRE" /></a>
-
-<br/>
-
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-00F5FF?style=for-the-badge&labelColor=030712" />
-<img src="https://img.shields.io/badge/STATUS-AVAILABLE_FOR_HIRE-D7FF37?style=for-the-badge&labelColor=030712" />
-<img src="https://img.shields.io/badge/MODE-CODING-FF00FF?style=for-the-badge&labelColor=030712" />
-<br/>
-<img src="https://komarev.com/ghpvc/?username=khanh020905&style=for-the-badge&color=00F5FF&labelColor=030712&label=VISITORS" />
-<a href="https://github.com/khanh020905?tab=followers"><img src="https://img.shields.io/github/followers/khanh020905?style=for-the-badge&logo=github&logoColor=white&color=FF00FF&labelColor=030712&label=FOLLOWERS" /></a>
-<a href="https://github.com/khanh020905?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC_REPOS-100%2B-D7FF37?style=for-the-badge&logo=github&logoColor=white&labelColor=030712" /></a>
+<a href="https://quoc-khanh0209.vercel.app/">
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/typing-mobile.svg" />
+  <img width="100%" src="assets/typing.svg" alt="$ whoami → Creative Developer · $ status: AVAILABLE_FOR_HIRE" />
+</picture>
+</a>
 
 <img width="100%" src="assets/divider.svg" alt="" />
 
@@ -29,36 +25,14 @@
 
 ## 🧬 `> whoami`
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr>
-<td width="58%" valign="top">
+<div align="center">
 
-```ts
-// player.config.ts
-export const player = {
-  name:      "Lê Nguyên Quốc Khánh",
-  handle:    "@khanh020905",
-  pronouns:  "he/him",
-  org:       "Duo Tech",
-  base:      "Việt Nam 🇻🇳",
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/idcard-mobile.svg" />
+  <img width="100%" src="assets/idcard.svg" alt="Operator ID — Lê Nguyên Quốc Khánh · @khanh020905 · Creative Developer · UI/UX Designer · Frontend Engineer" />
+</picture>
 
-  class:     ["Creative Developer", "UI/UX Designer", "Frontend Engineer"],
-  weapons:   ["React", "Next.js", "TypeScript", "GSAP", "Three.js"],
-  quest:     "building cinematic web experiences",
-
-  status:    "AVAILABLE_FOR_HIRE",
-  contact:   "lenguyenquockhanh57@gmail.com",
-} as const;
-```
-
-</td>
-<td width="42%" align="center" valign="middle">
-
-<img width="100%" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" alt="coding" />
-
-</td>
-</tr>
-</table>
+</div>
 
 <div align="center">
 
@@ -74,24 +48,10 @@ export const player = {
 
 <div align="center">
 
-<table border="0">
-<tr>
-<td align="right"><b>⚡ CORE</b></td>
-<td><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,html,css&theme=dark" /></td>
-</tr>
-<tr>
-<td align="right"><b>🎬 MOTION & 3D</b></td>
-<td><img src="https://skillicons.dev/icons?i=gsap,framer,threejs&theme=dark" /></td>
-</tr>
-<tr>
-<td align="right"><b>🗄️ BACKEND & DATA</b></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,java,supabase,postgres,cloudflare,docker&theme=dark" /></td>
-</tr>
-<tr>
-<td align="right"><b>🛠️ TOOLS & DEPLOY</b></td>
-<td><img src="https://skillicons.dev/icons?i=git,github,figma,vscode,vercel,arduino&theme=dark" /></td>
-</tr>
-</table>
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/stack-mobile.svg" />
+  <img width="100%" src="assets/stack.svg" alt="Tech stack circuit board — TypeScript, JavaScript, React, Next.js, Tailwind, HTML, CSS · GSAP, Framer Motion, Three.js · Node.js, Java, Supabase, Postgres, Cloudflare, Docker · Git, GitHub, Figma, VS Code, Vercel, Arduino" />
+</picture>
 
 </div>
 
@@ -101,7 +61,10 @@ export const player = {
 
 <div align="center">
 
-<img width="100%" src="assets/skills.svg" alt="Skill tree — React/Next.js 95% · GSAP 92% · JavaScript 90% · UI/UX 90% · TypeScript 88% · Three.js 82% · Java 80%" />
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/skills-mobile.svg" />
+  <img width="100%" src="assets/skills.svg" alt="Skill tree — React/Next.js 95% · GSAP 92% · JavaScript 90% · UI/UX 90% · TypeScript 88% · Three.js 82% · Java 80%" />
+</picture>
 
 </div>
 
@@ -158,10 +121,12 @@ export const player = {
 
 <div align="center">
 
-<img width="100%" src="assets/stats.svg" alt="Live GitHub stats — contributions, streak, languages, 52-week activity" />
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/stats-mobile.svg" />
+  <img width="100%" src="assets/stats.svg" alt="Live GitHub stats — contributions, streak, languages, 52-week activity" />
+</picture>
 
 <sub>📡 synced daily by GitHub Actions · numbers straight from the GitHub GraphQL API</sub>
-
 
 </div>
 
@@ -197,7 +162,12 @@ export const player = {
 
 <br/><br/>
 
+<img src="https://komarev.com/ghpvc/?username=khanh020905&style=for-the-badge&color=00F5FF&labelColor=030712&label=VISITORS" />
+
+<br/><br/>
+
 <picture>
+  <source media="(max-width: 640px)" srcset="assets/footer-mobile.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
   <img width="100%" src="assets/footer.svg" alt="end of transmission" />
 </picture>

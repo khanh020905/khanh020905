@@ -1,7 +1,7 @@
 // Pulls live numbers from the GitHub GraphQL API into data/stats.json.
 // Token: PROFILE_TOKEN (PAT — sees private contributions) → GITHUB_TOKEN → `gh auth token`.
 // Exits non-zero on failure so the workflow keeps the previous data/stats.json.
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, unlinkSync } from "node:fs";
 import { execSync } from "node:child_process";
 import { join } from "node:path";
 import { ROOT } from "./lib/theme.mjs";
@@ -22,7 +22,7 @@ async function gql(query, variables) {
   return json.data;
 }
 
-const Q_USER = `query($login:String!){ user(login:$login){ createdAt followers{totalCount} } }`;
+const Q_USER = `query($login:String!){ user(login:$login){ createdAt followers{totalCount} avatarUrl(size:256) name } }`;
 
 const Q_REPOS = `query($login:String!,$after:String){
   user(login:$login){ repositories(first:100, after:$after, ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false, orderBy:{field:PUSHED_AT,direction:DESC}){
@@ -104,6 +104,7 @@ const stats = {
   login: LOGIN,
   createdAt: user.createdAt,
   followers: user.followers.totalCount,
+  name: user.name,
   publicRepos: repos.length,
   stars,
   lastPush,
@@ -129,4 +130,15 @@ const stats = {
 
 mkdirSync(join(ROOT, "data"), { recursive: true });
 writeFileSync(join(ROOT, "data", "stats.json"), JSON.stringify(stats, null, 2));
+
+// avatar for the ID card (kept in the repo so render.mjs never needs the network)
+try {
+  const a = await fetch(user.avatarUrl, { headers: { "User-Agent": "profile-assets" } });
+  if (a.ok) {
+    const buf = Buffer.from(await a.arrayBuffer());
+    const ext = buf[0] === 0xff ? "jpg" : "png"; // GitHub serves JPEG for most avatars regardless of URL
+    for (const old of ["avatar.jpg", "avatar.png"]) { try { unlinkSync(join(ROOT, "data", old)); } catch {} }
+    writeFileSync(join(ROOT, "data", `avatar.${ext}`), buf); console.log(`avatar.${ext} updated (${buf.length} B)`);
+  }
+} catch (e) { console.warn("avatar fetch failed:", e.message); }
 console.log(`stats.json: ${stats.last12.total} contributions/12mo · streak ${current}d (longest ${longest}) · ${repos.length} repos · ${stars}★ · top ${languages[0]?.name}`);
